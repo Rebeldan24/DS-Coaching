@@ -48,7 +48,7 @@ h1,h2 {
     background-color: white;
     color: black;
     border: 2px solid black;
-    padding: 0.5px 1px;
+    padding: 0.5px 0.5px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
@@ -57,3 +57,36 @@ h1,h2 {
 #menu a:hover, a:active {
     background-color: black;
     color: white;
+
+}
+
+/* hero image*/
+
+#hero-outer {
+    height:600px;
+    width: 100%;
+    overflow: hidden;
+}
+
+#hero-image {
+    height: 600px;
+    width: 100%;
+       background: url(../images/how-important-is-nutrition-for-fitness_1000x1000.webp);
+        background-repeat: no-repeat;
+        background-size: cover; 
+
+  /* animates zoom effect on loading page */
+  animation-name: hero-zoom;
+  animation-duration: 5s;
+  animation-fill-mode: forwards;
+}
+
+/* creates the level of zoom for hero image */
+@keyframes hero-zoom {
+  from{
+      transform: scale(1);
+  }
+  to{
+      transform: scale(1.1);
+  }
+}
