@@ -113,5 +113,46 @@ h1,h2 {
 #center-about {
     width: 33%;
     margin: 0 auto;
-    background-color: green;
+    text-align: center;
+    line-height: 1.6;
+
 }
+#welcome {
+    text-align: center;
+    margin: 20px 0;
+    font-size: 280%;
+}
+
+#circle-container {
+    width: 200px;
+    height: 200px;
+    padding: 30px;
+    border-style: solid;
+    border-color: #ccc;
+    border-width: 1px;
+    border-radius: 50%;
+    margin-left: 50px;
+    float: bottom;
+
+}
+#circle-cover-bg {
+    background: url(../images/movment.PNG);
+    height:100%;
+    border-radius: 50%;
+}
+#circle-container1 {
+    width: 150px;
+    height: 150px;
+    padding: 30px;
+    border-style: solid;
+    border-color: #ccc;
+    border-width: 1px;
+    border-radius: 50%;
+    margin: 0 auto;
+    float: left;
+
+}
+#circle-cover-bg1 {
+    background: url(../images/movment.PNG);
+    height:100%;
+    border-radius: 50%;
