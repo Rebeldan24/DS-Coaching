@@ -124,21 +124,26 @@ h1,h2 {
 }
 
 #circle-container {
-    width: 200px;
-    height: 200px;
+    width: 150px;
+    height: 150px;
     padding: 30px;
     border-style: solid;
     border-color: #ccc;
     border-width: 1px;
     border-radius: 50%;
+
     margin-left: 50px;
     float: bottom;
 
 }
 #circle-cover-bg {
-    background: url(../images/movment.PNG);
+    background: url(../images/pexels-lukas-669577.jpg);
     height:100%;
+    background-size: cover;
+    background-repeat: no-repeat;
     border-radius: 50%;
+    
+   
 }
 #circle-container1 {
     width: 150px;
