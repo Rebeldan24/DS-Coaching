@@ -92,72 +92,112 @@ h1,h2 {
   }
 }
 /* about us*/
-#about-us {
+.about-us {
     height: 600px;
-}
-
-#left-about {
-    padding-top: 30px;
-    width: 33%;
-    float: left;
-    background-color: blue;
-}
-#right-about {
-    padding-top: 30px;
-    width: 33%;
-    float: right;
-    background-color: silver;
-
+    position: relative;
+    text-align: center;
+    background-color:beige;
+   
+    
 
 }
+
+
+
 #center-about {
-    width: 33%;
-    margin: 0 auto;
+    width: 45%;
     text-align: center;
     line-height: 1.6;
+    
 
 }
-#welcome {
+#center-about-heading {
     text-align: center;
-    margin: 20px 0;
+    margin: center;
     font-size: 280%;
+    
 }
 
 #circle-container {
-    width: 150px;
-    height: 150px;
+    width: 180px;
+    height: 180px;
     padding: 30px;
     border-style: solid;
-    border-color: #ccc;
+    border-color: rgb(22, 2, 2);
     border-width: 1px;
     border-radius: 50%;
-
     margin-left: 50px;
     float: bottom;
+    
 
 }
 #circle-cover-bg {
-    background: url(../images/pexels-lukas-669577.jpg);
+    background: url(../images/Nutrition.jpg);
     height:100%;
     background-size: cover;
     background-repeat: no-repeat;
     border-radius: 50%;
+
+    
     
    
 }
 #circle-container1 {
-    width: 150px;
-    height: 150px;
+    width: 180px;
+    height: 180px;
     padding: 30px;
     border-style: solid;
-    border-color: #ccc;
+    border-color: rgba(22, 2, 2);
     border-width: 1px;
     border-radius: 50%;
-    margin: 0 auto;
+    margin-left: 50px;
     float: left;
+    margin-top: 30px;
+    
+    
 
 }
 #circle-cover-bg1 {
     background: url(../images/movment.PNG);
     height:100%;
+    background-size: cover;
+    background-repeat: no-repeat;
     border-radius: 50%;
+}
+#circle-container2 {
+    width: 180px;
+    height: 180px;
+    padding: 30px;
+    border-style: solid;
+    border-color: rgb(22, 2, 2);
+    border-width: 1px;
+    border-radius: 50%;
+    margin-bottom: 500px;
+    float: right;
+}
+#circle-cover-bg2 {
+    background: url(../images/Education.jpg);
+    height:100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 50%;
+}
+#circle-container3 {
+    width: 180px;
+    height: 180px;
+    padding: 30px;
+    border-style: solid;
+    border-color: rgba(22, 2, 2);
+    border-width: 1px;
+    border-radius: 50%;
+    margin-right: 50px;
+    float: right;
+    
+}
+#circle-cover-bg3 {
+    background: url(../images/mental\ health.webp);
+    height:100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 50%;
+}
