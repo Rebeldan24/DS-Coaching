@@ -210,6 +210,7 @@ h1,h2 {
     height: 180px;
     border-color:#3a3a3a;
     border-width: 1px;
+    
     border-radius: 50%;
     margin-right: 110px;
 }
@@ -221,33 +222,44 @@ h1,h2 {
 }
 /* Classes*/
 
+#class121 {
+    text-align: center;
+    margin: 20px 0;
+    font-size: 280%
+}
+
 .container121 {
     
         
-        margin:15vh auto 0;
-        height:500px;
+        margin:8vh auto 0;
+        height: 465px;
         width:1100px;
         padding: 0.5em;
         
         display: flex;
         flex-direction: row;
         flex-wrap: nowrap;
-        justify-content: space-content;
+        justify-content: center;
+        
 
     
 }
 .yoga {
 margin: 1.5em;
 width: 40%;
+
 }
 .one {
     
     background-image: url(../images/yoga1.jpeg);
     background-size: cover;
     background-repeat: no-repeat;
+    color: white;
     text-align: center;
     font-family: dm-serif-display, sans-serif;
     position: relative;
+    padding: 30px 0 0 20px;
+    justify-content: center;
     
 
     
@@ -255,9 +267,78 @@ width: 40%;
 .one::after {
     position: absolute;
     content: "";
-    z-index: -1;
     inset: 0;
-    background:  blue;
-    opacity: .5;
+    background:  grey;
+    opacity: .4;
   
 }
+.two {
+    
+    background-image: url(../images/personal_training.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+    text-align: center;
+    font-family: dm-serif-display, sans-serif;
+    position: relative;
+    padding: 30px 0 0 20px;
+    justify-content: center;
+    
+
+    
+}
+.two::after {
+    position: absolute;
+    content: "";
+    inset: 0;
+    background:  grey;
+    opacity: .4;
+  
+}
+
+.three {
+    
+    background-image: url(../images/workshop.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+    text-align: center;
+    font-family: dm-serif-display, sans-serif;
+    position: relative;
+    padding: 30px 0 0 20px;
+    justify-content: center;
+    
+
+    
+}
+.three::after {
+    position: absolute;
+    content: "";
+    inset: 0;
+    background:  grey;
+    opacity: .4;
+  
+}
+
+.four {
+    
+    background-image: url(../images/technique.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+    text-align: center;
+    font-family: dm-serif-display, sans-serif;
+    position: relative;
+    padding: 30px 0 0 20px;
+    justify-content: center;
+    
+
+    
+}
+.four::after {
+    position: absolute;
+    content: "";
+    inset: 0;
+    background:  grey;
+    opacity: .4;
+  
