@@ -10,6 +10,7 @@ body {
     font-family: dm-serif-display, sans-serif;
     font-weight:300;
     color: #3a3a3a;
+    background-color: #C0C0C0;
 
 }
 /* headings & logo */
@@ -61,7 +62,7 @@ h1,h2 {
 
 }
 
-/* hero image*/
+/* hero image & Cover Text*/
 
 #hero-outer {
     height:600px;
@@ -69,6 +70,9 @@ h1,h2 {
     overflow: hidden;
 }
 
+#cover-text, #cover-text h2 {
+    color: #fff;
+}
 #hero-image {
     height: 600px;
     width: 100%;
@@ -91,6 +95,28 @@ h1,h2 {
       transform: scale(1.1);
   }
 }
+
+#cover-text {
+    font-size: 130%;
+    text-align: center;
+    font-family: dm-serif-display, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+
+    width: 250px;
+    height:185px;
+
+    padding-top: 40px;
+    padding-left: 10px;
+
+    background-color: rgba(10, 1, 1, 0.55);
+
+    bottom: 30px;
+    right: 150px;
+
+    position: absolute;
+}
+
 /* about us*/
 #welcome {
     text-align: center;
@@ -192,4 +218,46 @@ h1,h2 {
     background-size: cover;
     height: 100%;
     border-radius: 50%;
+}
+/* Classes*/
+
+.container121 {
+    
+        
+        margin:15vh auto 0;
+        height:500px;
+        width:1100px;
+        padding: 0.5em;
+        
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        justify-content: space-content;
+
+    
+}
+.yoga {
+margin: 1.5em;
+width: 40%;
+}
+.one {
+    
+    background-image: url(../images/yoga1.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+    font-family: dm-serif-display, sans-serif;
+    position: relative;
+    
+
+    
+}
+.one::after {
+    position: absolute;
+    content: "";
+    z-index: -1;
+    inset: 0;
+    background:  blue;
+    opacity: .5;
+  
 }
