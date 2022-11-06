@@ -374,7 +374,7 @@ footer {
     text-align: center;
     font-weight: 400;
     font-family: dm-serif-display, sans-serif;
-    padding: 13px 0 0 13px;
+    padding: 8px 0 0 8px;
 
 }
 #footer-text-more {
@@ -399,4 +399,25 @@ font-family: dm-serif-display, sans-serif;
     margin: 1%;
     padding: 5%;
     color: whitesmoke
+}
+
+/* Gallery page */
+
+.photo-gallery {
+    max-width: 1500px;
+    width: 100%;
+    margin: inline 5px;
+    padding: inline 2rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-content: center;
+    object-fit: cover;
+}
+
+img {
+    width:450px;
+    height: 300px;
+    margin: .5px;
+    padding: 5px;
+
 }
