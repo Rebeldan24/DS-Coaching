@@ -374,7 +374,7 @@ footer {
     text-align: center;
     font-weight: 400;
     font-family: dm-serif-display, sans-serif;
-    padding: 8px 0 0 8px;
+    padding: .1px 0 0 .1px;
 
 }
 #footer-text-more {
@@ -419,5 +419,120 @@ img {
     height: 300px;
     margin: .5px;
     padding: 5px;
+
+}
+/* Sign up form */
+
+.sign-up-background-image {
+width:100%;
+height:100vh;
+}
+
+
+.sign-up-container {
+position: relative;
+display: flex;
+justify-content: center;
+align-items: center;
+height: 100%;
+width: 100%;
+padding:20px 100px;
+
+}
+
+.sign-up-container::after {
+    content: "";
+    position: absolute;
+    font-family: dm-serif-display, sans-serif;
+    width: 100%;
+    height:100%;
+    top:0;
+    left: 0;
+    background: url(../images/backgroundimagesignup.webp) no-repeat center;
+    background-size: cover;
+    z-index: -1;
+    filter: blur(50px);
+}
+
+.sign-up-container-box {
+max-width:850px;
+display: grid;
+grid-template-columns: repeat(2,1fr);
+justify-content: center;
+align-items: center;
+text-align: center;
+background-color: #fff;
+
+}
+
+.sign-up-left {
+    height: 100%;
+    background: url(../images/backgroundimagesignup.webp) no-repeat center;
+    background-size: cover;
+
+}
+
+.sign-up-right {
+    padding:25px 40px;
+}
+
+#Sign-up-heading-h2 {
+    position: relative;
+    padding: bottom;
+    margin: bottom;
+
+}
+#Sign-up-heading-h2::after {
+    content: "";
+    position: absolute;
+    left:50%;
+    bottom: 0;
+    transform: translate(-50%);
+    height: 4px;
+    width: 50px;
+    border-radius: 2px;
+    
+
+}
+
+.field {
+    width: 100%;
+    padding: 0.5rem 1rem;
+    outline: none;
+    border: 2px solid rgba(0, 0, 0, 0);
+    background-color: rgba(230, 230, 230, 0.6);
+    font-size: 1.1rem;
+    margin-bottom: 22px;
+    transition: .3s;
+}
+
+.field:hover {
+    background-color: rgba(0, 0, 0, 0.1);
+}
+
+.field:focus {
+    background-color: #fff;
+    border: 2px sold rgba(30, 85, 250, 0.47)
+}
+.area {
+min-height: 150px;
+}
+
+.btn {
+    width: 100%;
+    padding: 0.5rem 1rem;
+    font-size: 1.1rem;
+    background-color: #3a3a3a;
+    cursor: pointer;
+    outline: none;
+    border: none;
+    color:#fff;
+    transition: .3s;
+    margin-left: 15px;
+
+
+}
+
+.btn:hover {
 
 }
