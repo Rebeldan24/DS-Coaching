@@ -1,10 +1,7 @@
-@import url('https://fonts.googleapis.com/css2?family=DM+Sans&family=DM+Serif+Display&display=swap')
-* {
-    margin: 0;
-    padding: 0;
-    border: none;
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans&family=DM+Serif+Display&display=swap');
 
-}
+
+
 
 
 body {
@@ -17,6 +14,8 @@ body {
 
 }
 /* headings & logo */
+
+
 h1,h2 {
     font-family: dm-sans,sans-serif;
     text-transform: uppercase;
@@ -32,12 +31,16 @@ border-color: #252525;
 padding: 10px 0;
 }
 /* navigation links */
+
+
 header {
-  background: var(--background);
+  
   text-align: center;
   position: fixed;
   z-index: 999;
   width: 100%;
+  background:rgba(160, 157, 157, 0.6)
+  
 }
 
 
@@ -96,6 +99,8 @@ nav {
   transform: scale(1, 0);
   transform-origin: top;
   transition: transform 400ms ease-in-out;
+  background: #656565;
+  
 }
 
 nav ul {
@@ -116,6 +121,8 @@ nav a {
   text-transform: uppercase;
   opacity: 0;
   transition: opacity 150ms ease-in-out;
+  
+
 }
 
 nav a:hover {
@@ -146,9 +153,8 @@ nav a:hover {
   }
   
   nav {
-    // all: unset; 
     
-    
+   
     position: relative;
     text-align: left;
     transition: none;
@@ -387,7 +393,7 @@ nav a:hover {
 .container121 {
     
         
-        margin:10vh auto 0;
+        margin: auto 0;
         height: auto;
         width:auto;
         padding: 0.5em;
@@ -403,7 +409,7 @@ nav a:hover {
 }
 .yoga {
 margin: 1.5em;
-width: 40%;
+width: 60%;
 
 }
 .one {
@@ -483,7 +489,7 @@ width: 40%;
     background-size: cover;
     background-repeat: no-repeat;
     color: white;
-    text-align: center;
+    text-align:center;
     font-family: dm-serif-display, sans-serif;
     position: relative;
     padding: 30px 0 0 20px;
@@ -500,12 +506,6 @@ width: 40%;
     opacity: .4;
 }
 
-@media (max-width: 800px) {
-  .container121 {
-      flex-direction: column;
-      align-items: center;
-  }
-}
 
 /* footer */
 footer{
@@ -768,6 +768,12 @@ min-height: 150px;
     flex-direction: column;
     align-items: center;
   }
+  #paragraph {
+    width:auto;
+  }
+  #paragraph2 {
+    width: auto;
+  }
 }
   
 
@@ -778,6 +784,7 @@ min-height: 150px;
         justify-content: center;
         
         align-items: center;
+        
     }
   }
    
@@ -787,6 +794,7 @@ min-height: 150px;
     .main-content{
       align-items: center;
       flex-direction: column;
+      text-align: center;
    
       
     }
