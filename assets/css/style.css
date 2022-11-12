@@ -36,8 +36,8 @@ padding: 10px 0;
 header {
   
   text-align: center;
-  position: fixed;
-  z-index: 999;
+  position: relative;
+  z-index: -9999px;
   width: 100%;
   background:rgba(160, 157, 157, 0.6)
   
@@ -68,9 +68,11 @@ header {
 .nav-toggle-label span::before,
 .nav-toggle-label span::after {
   display: block;
-  background: white;
-  height: 2px;
-  width: 2em;
+  background: rgba(10, 1, 1, 0.55);
+  height: 4px;
+  width: 3em;
+  top: 5px;
+  
   border-radius: 2px;
   position: relative;
 }
@@ -92,14 +94,14 @@ header {
 nav {
   position: absolute;
   text-align: left;
-  top: 100%;
+  top: 50px;
   left: 0;
   background: var(--background);
   width: 100%;
   transform: scale(1, 0);
   transform-origin: top;
   transition: transform 400ms ease-in-out;
-  background: #656565;
+  background: rgba(0, 0, 0, 0.6)
   
 }
 
@@ -136,70 +138,6 @@ nav a:hover {
 .nav-toggle:checked ~ nav a {
   opacity: 1;
   transition: opacity 250ms ease-in-out 250ms;
-}
-
-@media screen and (min-width: 800px) {
-  .nav-toggle-label {
-    display: none;
-  }
-
-  header {
-    display: grid;
-    grid-template-columns: 1fr auto minmax(600px, 3fr) 1fr;
-  }
-  
-  #logo {
-    grid-column: 2 / 3;
-  }
-  
-  nav {
-    
-   
-    position: relative;
-    text-align: left;
-    transition: none;
-    transform: scale(1,1);
-    background: none;
-    top: initial;
-    left: initial;
-   
-    
-    grid-column: 3 / 4;
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;
-  }
-  
-  nav ul {
-    display: flex;
-  }
-  
-  nav li {
-    margin-left: 3em;
-    margin-bottom: 0;
-  }
-  
-  nav a {
-    opacity: 1;
-    position: relative;
-  }
-  
-  nav a::before {
-    content: '';
-    display: block;
-    height: 5px;
-    background: black;
-    position: absolute;
-    top: -.75em;
-    left: 0;
-    right: 0;
-    transform: scale(0, 1);
-    transition: transform ease-in-out 250ms;
-  }
-  
-  nav a:hover::before {
-    transform: scale(1,1);
-  }
 }
 
 
@@ -248,7 +186,6 @@ nav a:hover {
 
     width: 250px;
     height:185px;
-
     padding-top: 40px;
     padding-left: 10px;
 
@@ -371,23 +308,13 @@ nav a:hover {
 
 }
 
-@media (max-width: 800px) {
-  .row1 {
-      flex-direction: column;
-      align-items: center;
-  }
-  .row2 {
-    flex-direction: column;
-    align-items: center;
-  }
-  
-}
+
 /* Classes*/
 
 #class121 {
     text-align: center;
     margin: 15px 0;
-    font-size: 280%
+    font-size: 280%;
 }
 
 .container121 {
@@ -608,16 +535,7 @@ footer{
   .bottom center a:hover{
     text-decoration: underline;
   }
-  @media screen and (max-width: 800px) {
-   
-    .main-content{
-      align-items: center;
-      flex-direction: column;
-   
-      
-    }
-   
-    }
+
   
 /* Gallery page */
 
@@ -648,13 +566,13 @@ height:100vh;
 
 
 .sign-up-container {
-position: relative;
+position: relative; 
 display: flex;
 justify-content: center;
 align-items: center;
-height: 100%;
+height:100%;
 width: 100%;
-padding:20px 100px;
+
 
 }
 
@@ -664,7 +582,7 @@ padding:20px 100px;
     font-family: dm-serif-display, sans-serif;
     width: 100%;
     height:100%;
-    top:0;
+    top: 150px;
     left: 0;
     background: url(../images/backgroundimagesignup.webp) no-repeat center;
     background-size: cover;
@@ -757,7 +675,7 @@ min-height: 150px;
 
 /* Media Queries */
 
-/* For medium screen sizes from 950px wide and down */
+/* For medium screen sizes from 800px wide and down */
 
 @media (max-width: 800px) {
   .row1 {
@@ -801,9 +719,157 @@ min-height: 150px;
    
     }
 
+    @media screen and (min-width: 800px) {
+      .nav-toggle-label {
+        display: none;
+      }
+    
+      header {
+        display: grid;
+        grid-template-columns: 1fr auto minmax(600px, 3fr) 1fr;
+        padding: 0;
+      }
+      
+      #logo {
+        grid-column: 2 / 3;
+       
+      }
+      
+      nav {
         
+       
+        position: relative;
+        text-align: left;
+        transition: none;
+        transform: scale(1,1);
+        background: none;
+        top: initial;
+        left: initial;
+       
+        
+        grid-column: 3 / 4;
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+      }
+      
+      nav ul {
+        display: flex;
+      }
+      
+      nav li {
+        margin-left: 3em;
+        margin-bottom: 0;
+      }
+      
+      nav a {
+        opacity: 1;
+        position: relative;
+      }
+      
+      nav a::before {
+        content: '';
+        display: block;
+        height: 5px;
+        background: black;
+        position: absolute;
+        top: -.75em;
+        left: 0;
+        right: 0;
+        transform: scale(0, 1);
+        transition: transform ease-in-out 250ms;
+      }
+      
+      nav a:hover::before {
+        transform: scale(1,1);
+      }
+    }
+  
+    @media screen and (max-width: 800px) {
+   
+      .photo-gallery{
+       display: flex;
+       flex-direction: column;
+        align-items: center;
+      }
+    }
+  @media screen and (max-width: 800px) {
+
+    .sign-up-container {
+      padding: 0;
+    }
+    .sign-up-container-box {
+      grid-template-columns: 1fr;
+      justify-content: center;
+      align-items: center;
+      margin: auto;
+      max-width: 90%;
+      
+      
+    
+  }
+  .sign-up-left {
+    height: 200px;
+  }
      
     
 
     
+}
+@media screen and (max-width:800px) {
+  #hero-image {
+    margin: auto;
+    max-width: 90%;
+    display: flex;
+  }
+  #cover-text {
+    align-items: center;
+    justify-content: center;
+    margin-left: auto;
     
+  }
+}
+
+@media screen and (max-width:450px) {
+  #hero-image {
+    margin: auto;
+    max-width: auto;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    padding:0;
+  }
+  #cover-text {
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    display: flex;
+    padding-left: 20px;
+    
+
+}
+#logo {
+  
+  margin: 1%;
+  top: 55px;
+  background: rgba(230, 230, 230, 0.6);
+  display: flex;
+  width: 10px;
+  align-items: center;
+  padding: 0;
+  
+}
+.nav-toggle-label span,
+.nav-toggle-label span::before,
+.nav-toggle-label span::after {
+  display: block;
+  background: rgba(10, 1, 1, 0.55);
+  height: 4px;
+  width: 3em;
+  top: 2px;
+  
+  border-radius: 2px;
+  position: relative;
+}
+
+}
