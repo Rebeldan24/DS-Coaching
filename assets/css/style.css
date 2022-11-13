@@ -56,8 +56,8 @@ header {
 
 .nav-toggle-label {
   position: absolute;
-  top: 0;
-  left: 0;
+  top: 2.7em;
+  left: -1em;
   margin-left: 1em;
   height: 100%;
   display: flex;
@@ -840,11 +840,24 @@ min-height: 150px;
     padding:0;
   }
   #cover-text {
-    align-items: center;
-    justify-content: center;
-    margin: auto;
-    display: flex;
-    padding-left: 20px;
+    font-size: 100%;
+    text-align: center;
+    font-family: dm-serif-display, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    width: 195px;
+    height: 185px;
+    padding-top: 40px;
+   
+    background-color: rgba(10, 1, 1, 0.55);
+    bottom: -130px;
+    right: 20px;
+    position: relative;
+    
+left:-80px;
+
+   
+   
     
 
 }
@@ -856,7 +869,11 @@ min-height: 150px;
   display: flex;
   width: 10px;
   align-items: center;
-  padding: 0;
+  padding: 10px;
+  border-style: solid;
+  height: 100px;
+  width: 280px;
+  
   
 }
 .nav-toggle-label span,
