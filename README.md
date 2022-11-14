@@ -1,108 +1,186 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+# Cooking 101
 
-Welcome Rebeldan24,
+Cooking 101 is a website aimed at people seeking to learn cooking skills. It is a simple 3-page website and was designed to be responsive and accessible across a range of devices.
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
+Users of this website will find all the necessary information about Cooking 101. 
+Why cook, about us, live classes, recipes, and sign-up form sections are clear and easy to understand.
+The site targets users looking for an easy and free start at cooking.
 
-You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **September 1, 2021**
 
-## Gitpod Reminders
+![Am I Responsive Website](readme/feature-screenshots/responsivness.png)
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
+## Features
 
-`python3 -m http.server`
+This website contains many features, which we will explain now.
 
-A blue button should appear to click: _Make Public_,
+### Existing Features
 
-Another blue button should appear to click: _Open Browser_.
+- __Navigation Bar__
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+  - Featured on all three pages, the full responsive navigation bar includes links to the Logo, Home page, Recipes, and Sign Up page and is identical on each page to allow for easy navigation.
+  - This section will allow the user to easily navigate from page to page across all devices without having to revert to the previous page via the ‘back’ button. 
 
-A blue button should appear to click: _Make Public_,
+  ![Navigation Bar](readme/feature-screenshots/navigation-bar.png)
+  
+  - The navigation bar turns into a burger menu for screen sizes 699px wide and down for better structure and visual.
 
-Another blue button should appear to click: _Open Browser_.
+  ![Burger menu](readme/feature-screenshots/burger-menu.png)
+  
+- __The landing page image__
 
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
+  - The landing page grabs the viewers' attention by showing an image of a chef cooking. The goal of the image and overlay text is to give an immediate understanding to the viewer of what the website will be about.
 
-To log into the Heroku toolbelt CLI:
+  ![Landing Page](readme/feature-screenshots/landing-page.png)
 
-1. Log in to your Heroku account and go to *Account Settings* in the menu under your avatar.
-2. Scroll down to the *API Key* and click *Reveal*
-3. Copy the key
-4. In Gitpod, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
+- __Why cook section__
 
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you so do not share it. If you accidentally make it public then you can create a new one with _Regenerate API Key_.
+  - The why cook section will allow the user to see the benefits of cooking. 
+  - The user will see the value of learning the skill. This should encourage the user to consider changing his cooking habits by using the website and its features. 
 
-------
+  ![Why cook section](readme/feature-screenshots/why-cook.png)
 
-## Release History
+- __About us section__
 
-We continually tweak and adjust this template to help give you the best experience. Here is the version history:
+  - The about us section will allow the user to know who is offering the knowledge and their skill level. 
+  - The user will see the value of accessing the site for weekly recipes and signing up for the Cooking 101 live classes.
 
-**September 1 2021:** Remove `PGHOSTADDR` environment variable.
+  ![About us section](readme/feature-screenshots/about-us.png)
 
-**July 19 2021:** Remove `font_fix` script now that the terminal font issue is fixed.
+- __Live section__
 
-**July 2 2021:** Remove extensions that are not available in Open VSX.
+  - This section will allow the user to see exactly when classes will happen. 
+   
+  ![Live classes section](readme/feature-screenshots/live-classes.png)
 
-**June 30 2021:** Combined the P4 and P5 templates into one file, added the uptime script. See the FAQ at the end of this file.
+- __The Footer__ 
 
-**June 10 2021:** Added: `font_fix` script and alias to fix the Terminal font issue
+  - The footer section includes links to the relevant social media sites for Love Running. The links will open to a new tab to allow easy navigation for the user. 
+  - The footer is valuable to the user as it encourages them to keep connected via social media.
 
-**May 10 2021:** Added `heroku_config` script to allow Heroku API key to be stored as an environment variable.
+  ![Footer](readme/feature-screenshots/footer.png)
 
-**April 7 2021:** Upgraded the template for VS Code instead of Theia.
+- __Recipes__ 
 
-**October 21 2020:** Versions of the HTMLHint, Prettier, Bootstrap4 CDN and Auto Close extensions updated. The Python extension needs to stay the same version for now.
+  - The Recipes page will provide the user with weekly updated recipes. 
+  - This section is valuable to the user as they will be able to easily view recordings of live classes missed and new recipes.
 
-**October 08 2020:** Additional large Gitpod files (`core.mongo*` and `core.python*`) are now hidden in the Explorer, and have been added to the `.gitignore` by default.
+  ![Recipes](readme/feature-screenshots/recipes.png)
 
-**September 22 2020:** Gitpod occasionally creates large `core.Microsoft` files. These are now hidden in the Explorer. A `.gitignore` file has been created to make sure these files will not be committed, along with other common files.
+- __The Sign Up Page__
 
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
+  - This page will allow the user to get signed up for Cooking 101 live classes to start their cooking journey. The user will be able to specify if they would like to take part in Saturday, Sunday classes, or both. The user will be asked to submit their full name and email address. 
 
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
+![Sign Up](readme/feature-screenshots/sign-up.png)
 
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
+- __Thank you message Page__
 
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
+  - This page will inform the user he has successfully signed-up and the we will be contacted shortly.
+  - It also provides the user with a button to check the recipes page.
 
-------
+![Than you messeage](readme/feature-screenshots/thank-you-message.png)
 
-## FAQ about the uptime script
+- __Color Palette__
 
-**Why have you added this script?**
+  - Main colors are black and white for user accessibility.
 
-It will help us to calculate how many running workspaces there are at any one time, which greatly helps us with cost and capacity planning. It will help us decide on the future direction of our cloud-based IDE strategy.
+### Features Left to Implement
 
-**How will this affect me?**
+- In the future I would like to:
 
-For everyday usage of Gitpod, it doesn’t have any effect at all. The script only captures the following data:
+- Add more types of cuisines to the recipes divided by cuisine types with a step-by-step text description.
+- Add a vegetarian and vegan section to recipes.
+- Make social media links land on chefs-related social media pages.
 
-- An ID that is randomly generated each time the workspace is started.
-- The current date and time
-- The workspace status of “started” or “running”, which is sent every 5 minutes.
+## Technologies Used
 
-It is not possible for us or anyone else to trace the random ID back to an individual, and no personal data is being captured. It will not slow down the workspace or affect your work.
+### Languages Used
 
-**So….?**
+-   [HTML5](https://en.wikipedia.org/wiki/HTML5)
+-   [CSS3](https://en.wikipedia.org/wiki/Cascading_Style_Sheets)
+-   [Javascript](https://en.wikipedia.org/wiki/JavaScript)
 
-We want to tell you this so that we are being completely transparent about the data we collect and what we do with it.
+## Testing 
 
-**Can I opt out?**
+All features above were tested on the deployed website across multiple devices. 
 
-Yes, you can. Since no personally identifiable information is being captured, we'd appreciate it if you let the script run; however if you are unhappy with the idea, simply run the following commands from the terminal window after creating the workspace, and this will remove the uptime script:
+All features above were tested on the deployed website on the following browsers:
 
-```
-pkill uptime.sh
-rm .vscode/uptime.sh
-```
+- __Edge__
+- __Google Chrome__
+- __Brave__
+- __Mozilla Firefox__
 
-**Anything more?**
+Navigation bars and links to social media websites are working as intended. The form works as it should, and the buttons perform the given actions. 
 
-Yes! We'd strongly encourage you to look at the source code of the `uptime.sh` file so that you know what it's doing. As future software developers, it will be great practice to see how these shell scripts work.
+I encountered a bug when deploying the website on Mozilla Firefox for the first time, my grid structure rule for rows did not apply, I fixed the bug by removing the  "grid-template-rows", after this fix the webiste worked fine on Mozilla Firefox.
 
----
+### Lighthouse testing
 
-Happy coding!
+Because of performance levels, I have modified my images from jpg to webp following teammates' advice.
+
+As I choose to build a recipe page with youtube video links, I could not improve the performance level.
+
+Results for Lighthouse once fixes applied:
+
+- __HTML__
+
+    - __Index page__
+
+    ![Index Lighthouse](readme/lighthouse-testing/index-lighthouse.png)
+
+    - __Recipes page__
+
+    ![Recipes Lighthouse](readme/lighthouse-testing/recipes-lighthouse.png)
+
+    - __Sign-up page__
+
+    ![Sign-up Lighthouse](readme/lighthouse-testing/sign-up-lighthouse.png)
+
+    - __Thank you message page__
+
+    ![Thank you message Lighthouse](readme/lighthouse-testing/thank-you-message-lighthouse.png)
+
+## Validator Testing 
+ 
+- HTML
+  - No errors were returned when passing through the official [W3C validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fmartinfortuna.github.io%2Fportfolio-1-project%2Findex.html)
+
+- CSS
+  - No errors were found when passing through the official [(Jigsaw) validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fmartinfortuna.github.io%2Fportfolio-1-project%2Findex.html&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)
+
+## Unfixed Bugs
+
+- No known bugs left unfixed.
+
+## Deployment
+
+ - The site was deployed to GitHub pages. The steps to deploy are as follows: 
+ - In the GitHub repository, navigate to the Settings tab 
+ - From the source section drop-down menu, select the Master Branch
+ - Once the master branch has been selected, click on save and the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment. 
+
+The live link can be found here - https://martinfortuna.github.io/portfolio-1-project/index.html
+
+## __Credits__
+
+### Content
+
+- The header code is taken from Web Dev Simplified's youtube video [Web Dev Simplified](https://www.youtube.com/watch?v=At4B7A4GOPgs).
+- The footer code is taken from Love Running project, Code institute.
+- Form code is taken from Love Running project, Code institute.
+- For coding questions and challenges, I used [w3schools.com](https://www.w3schools.com/), the slack community.
+- For grid layout, I used [Css Grid Generator](https://cssgrid-generator.netlify.app/).
+- The icons in the footer were taken from [Font Awesome](https://fontawesome.com/).
+
+### Media
+
+- Images were takent from [Pexels](https://www.pexels.com/).
+- The videos were taken from YouTube.
+
+## __Special Thanks__
+Specials thanks goes out to:
+- My mentor Narender, my brother and my friend Guillerme for guiding me through the project.
+
+
+
+
