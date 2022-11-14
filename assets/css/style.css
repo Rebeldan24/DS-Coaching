@@ -37,7 +37,7 @@ header {
   
   text-align: center;
   position: relative;
-  z-index: -9999px;
+  
   width: 100%;
   background:rgba(160, 157, 157, 0.6)
   
@@ -51,7 +51,7 @@ header {
 }
 
 .nav-toggle:focus ~ .nav-toggle-label {
-  outline: 3px solid rgba(rgb(192, 16, 34), .75);
+  outline: 3px solid rgba(192, 16, 34, .75);
 }
 
 .nav-toggle-label {
@@ -96,7 +96,7 @@ nav {
   text-align: left;
   top: 50px;
   left: 0;
-  background: var(--background);
+  
   width: 100%;
   transform: scale(1, 0);
   transform-origin: top;
@@ -554,7 +554,20 @@ footer{
     background: none!important;
     height: 250px;
     width: 300px;
+    
+    
     }
+
+  iframe {
+    border: 0px;
+    overflow: hidden;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: 0;
+    margin-right: 0;
+    
+
+  }
 
   
 /* Gallery page */
@@ -562,8 +575,8 @@ footer{
 .photo-gallery {
     max-width: 1500px;
     width: 100%;
-    margin: inline 5px;
-    padding: inline 2rem;
+    margin-inline: 5px;
+    padding-inline:  2rem;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     justify-content: center;
@@ -634,8 +647,8 @@ background-color: #fff;
 
 #Sign-up-heading-h2 {
     position: relative;
-    padding: bottom;
-    margin: bottom;
+    padding-bottom: 0 ;
+    margin-bottom: 0;
 
 }
 #Sign-up-heading-h2::after {
@@ -668,7 +681,7 @@ background-color: #fff;
 
 .field:focus {
     background-color: #fff;
-    border: 2px sold rgba(30, 85, 250, 0.47)
+    border: 2px solid rgba(30, 85, 250, 0.47)
 }
 .area {
 min-height: 150px;
@@ -853,7 +866,7 @@ min-height: 150px;
 @media screen and (max-width:450px) {
   #hero-image {
     margin: auto;
-    max-width: auto;
+    max-width: 0;
     align-items: center;
     justify-content: center;
     display: flex;
