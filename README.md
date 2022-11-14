@@ -1,4 +1,5 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)![image](https://user-images.githubusercontent.com/114657535/201721380-60f3061b-da3d-4ed6-852d-9f4b166f98cc.png)
+
 
 Welcome Rebeldan24,
 
