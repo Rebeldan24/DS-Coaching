@@ -1,109 +1,134 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)![image](https://user-images.githubusercontent.com/114657535/201721380-60f3061b-da3d-4ed6-852d-9f4b166f98cc.png)
+CI logo
+Manchester United Supporters Away Travel Club
+The Manchester United Supporters Away Travel Club website is for Manchester United supporters looking for travel to football matches to see Manchester United. The website allows supporters to discover what travel options are available for future football matches and sign up to the club. It allows supporters with match tickets from Manchester United football matches to have access to a travel club which provides first class travel to Manchester United football matches throughout England and Europe.
 
+Users of the website can find out about the luxury coach that will transport supporters to the games, what facilitles are on the coach, what games coming up that they can look to book the coach for and a sign up form. The site is targetting Manchester United football supporters who are wanting an exciting mode of transport to football matches throughout Europe.
 
-Welcome Rebeldan24,
+Features
+Navigation Bar
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
+Featured on all three pages at the top of each page. It includes links to the logo (which links back to the index page), Games and Sign Up. The navigation bar is the same on each page to allow easy navigation throughout the site.
+It allows users to navigate to any page on the website without having to use any browser buttons such as 'back' or 'forward'.
+Image of Navigation Bar
 
-You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **September 1, 2021**
+The landing page and hero image
 
-## Gitpod Reminders
+The landing includes a hero image and cover text which allows the user to see what the website is about. The image includes an animation which should draw the user into the page, whilst the cover text details clearly what the website is about.
+Image of Landing Page
+Upcoming Games section
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
+The upcoming games secton allows the user to see what upcoming games the travel club will be attending in the future. It is limited to 4 upcoming games.
+This section allows the user to find what the upcoming games are quickly. It provides details of the game, the date of the game, the time the game kicks off, Departure time and the cost of the trip.
+Image of Upcoming Games Section
 
-`python3 -m http.server`
+Why Travel with Manchester United Supporter Away Travel Club section
 
-A blue button should appear to click: _Make Public_,
+This sections allows the user to see the benefits of travelling with the travel club. It details the luxury coach travel, the facilities and the wide range of refreshments available on the coach.
+The user will see the value of travelling with the Travel club and understand it is more than just transport to the football game, but allows the user to travel in luxury and enjoy refreshments.
+Image of Why Travel Section
+Google Maps
 
-Another blue button should appear to click: _Open Browser_.
+This section allows the user to see the location of where the travel coach departs from using Google Maps. It allows the user to find the location of departure without having to leave the website.
+Image of google maps
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+Footer
 
-A blue button should appear to click: _Make Public_,
+The footer includes links to all of the social media sites for the Manchester United Supporters Away Travel Club.
+The footer allows the user further access to the Manchester United Supporters Away Travel Club through their social media sites.
+Image of footer
 
-Another blue button should appear to click: _Open Browser_.
+Games Page
 
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
+The page allows the user to see a full list of all the upcoming games that the travel club will be providing transport for. It provides details of the game, the date of the game, the time the game kicks off, Departure time and the cost of the trip.
+The section is valuable to the user, as it allows them to see a full list of the games that the travek club will be travelling to, as more fixtures are announced, the list will be added to, which will provide the user with more options of games to pick from.
+Image of Upcoming Games Section
+Sign Up Page
 
-To log into the Heroku toolbelt CLI:
+The page allows the users to sign up to the Manchester United Supporters Away Travel Club. The user is asked to submit their Name, Email, Address, what age bracket they are in, whether they are currently a season ticket holder. The user is able to select which games they would be interested in travelling to with the Travel Club, they can as many options as they wish.
+Image of Sign Up Page
+Possible Future Features to Implement
 
-1. Log in to your Heroku account and go to *Account Settings* in the menu under your avatar.
-2. Scroll down to the *API Key* and click *Reveal*
-3. Copy the key
-4. In Gitpod, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
+A Gallery page where users can see other users who have been on trips with the travel club. This could also include a youtube videos of trips.
+A review section where users can see reviews from other users to gain an independent review of the travel club.
+Testing
+HTML
+No errors were returned when passing through the official W3C validator
 
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you so do not share it. If you accidentally make it public then you can create a new one with _Regenerate API Key_.
+index.html
 
-------
+Image of no errors
 
-## Release History
+games.html
+Image of no errors
 
-We continually tweak and adjust this template to help give you the best experience. Here is the version history:
+signup.html
+Image of no errors
 
-**September 1 2021:** Remove `PGHOSTADDR` environment variable.
+CSS
+No errors were returned when passing through the official Jigsaw validator
 
-**July 19 2021:** Remove `font_fix` script now that the terminal font issue is fixed.
+style.css
 
-**July 2 2021:** Remove extensions that are not available in Open VSX.
+Image of no errors
 
-**June 30 2021:** Combined the P4 and P5 templates into one file, added the uptime script. See the FAQ at the end of this file.
+Responsive
+Am I responsive: The site is responsive to different screen sizes. Tested through Am I Responsive?
 
-**June 10 2021:** Added: `font_fix` script and alias to fix the Terminal font issue
+Website tested using Chrome devtools on various screen sizes.
 
-**May 10 2021:** Added `heroku_config` script to allow Heroku API key to be stored as an environment variable.
+Media Queries were added to the CSS Stylesheet:
 
-**April 7 2021:** Upgraded the template for VS Code instead of Theia.
+For larger to medium screens size from 1200px wide and down
+Medium screen sizes from 950px wide and down
+Lighthouse
+Website tested on lighthouse
+Perfomance 53
+Accessibility 97
+Best Practices 92
+SEO 93
+Lighthouse score
 
-**October 21 2020:** Versions of the HTMLHint, Prettier, Bootstrap4 CDN and Auto Close extensions updated. The Python extension needs to stay the same version for now.
+To improve this, I used Optimizilla to reduce the size of the images on the website. After compressing all of the images, I performed the lighthouse test again which returned an huge improvement on the performance score without affecting images quality on the site.
 
-**October 08 2020:** Additional large Gitpod files (`core.mongo*` and `core.python*`) are now hidden in the Explorer, and have been added to the `.gitignore` by default.
+After compressing images - Website tested on lighthouse
+Perfomance 53
+Accessibility 97
+Best Practices 92
+SEO 93
+Lighthouse score
 
-**September 22 2020:** Gitpod occasionally creates large `core.Microsoft` files. These are now hidden in the Explorer. A `.gitignore` file has been created to make sure these files will not be committed, along with other common files.
+Unfixed Bugs
+The flexbox css styling on the Games page does not line up all the images as neatly as I would like. This is something I would want to work on and improve in the future.
 
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
+Images that are used on the site are rather large in size and they could be adjusted to allow for faster loading times on those with a slower internet connection
 
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
+Deployment
+The site was deployed to GitHub pages. The steps to deploy are as follows:
+In GitHub repository, naviagte to the Settings tab
+Click on Pages
+Select main branch and GitHub builds site from main branch
+The live link is here - https://richburman.github.io/Project-1/
 
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
-
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
-
-------
-
-## FAQ about the uptime script
-
-**Why have you added this script?**
-
-It will help us to calculate how many running workspaces there are at any one time, which greatly helps us with cost and capacity planning. It will help us decide on the future direction of our cloud-based IDE strategy.
-
-**How will this affect me?**
-
-For everyday usage of Gitpod, it doesn’t have any effect at all. The script only captures the following data:
-
-- An ID that is randomly generated each time the workspace is started.
-- The current date and time
-- The workspace status of “started” or “running”, which is sent every 5 minutes.
-
-It is not possible for us or anyone else to trace the random ID back to an individual, and no personal data is being captured. It will not slow down the workspace or affect your work.
-
-**So….?**
-
-We want to tell you this so that we are being completely transparent about the data we collect and what we do with it.
-
-**Can I opt out?**
-
-Yes, you can. Since no personally identifiable information is being captured, we'd appreciate it if you let the script run; however if you are unhappy with the idea, simply run the following commands from the terminal window after creating the workspace, and this will remove the uptime script:
-
-```
-pkill uptime.sh
-rm .vscode/uptime.sh
-```
-
-**Anything more?**
-
-Yes! We'd strongly encourage you to look at the source code of the `uptime.sh` file so that you know what it's doing. As future software developers, it will be great practice to see how these shell scripts work.
-
----
-
-Happy coding!
+Credits
+Contents
+Research using w3schools to learn about how to use flexbox
+The icons in the footer were taken from Font Awesome
+The fonts were taken from Google Fonts
+The football teams used in the website are members of the Premier League
+Manchester United
+Arsenal FC
+Chelsea FC
+Manchester City FC
+Tottenham Hotspur FC
+Information take from Web.Dev to reduce images size to improve loading performance speeds. After reading this webite I added 'aspect-ratio= 16/9' to my imgs to help improve performance speeds on lighthouse score.
+Media
+All images were taken from Unsplash
+All images were compressed using Optimizilla to aid website performance.
+Screenshots taken from the following website for this README
+Lighthouse
+Jigsaw validator
+W3C validator
+Am I Responsive?
+Acknowledgements
+Thank you to my mentor for your support throughout my project. It has been greatly appreciated.
+Thank you to the CI slack community for your support throughout my project.
