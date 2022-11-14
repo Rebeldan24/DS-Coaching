@@ -1,134 +1,186 @@
-CI logo
-Manchester United Supporters Away Travel Club
-The Manchester United Supporters Away Travel Club website is for Manchester United supporters looking for travel to football matches to see Manchester United. The website allows supporters to discover what travel options are available for future football matches and sign up to the club. It allows supporters with match tickets from Manchester United football matches to have access to a travel club which provides first class travel to Manchester United football matches throughout England and Europe.
+# Cooking 101
 
-Users of the website can find out about the luxury coach that will transport supporters to the games, what facilitles are on the coach, what games coming up that they can look to book the coach for and a sign up form. The site is targetting Manchester United football supporters who are wanting an exciting mode of transport to football matches throughout Europe.
+Cooking 101 is a website aimed at people seeking to learn cooking skills. It is a simple 3-page website and was designed to be responsive and accessible across a range of devices.
 
-Features
-Navigation Bar
+Users of this website will find all the necessary information about Cooking 101. 
+Why cook, about us, live classes, recipes, and sign-up form sections are clear and easy to understand.
+The site targets users looking for an easy and free start at cooking.
 
-Featured on all three pages at the top of each page. It includes links to the logo (which links back to the index page), Games and Sign Up. The navigation bar is the same on each page to allow easy navigation throughout the site.
-It allows users to navigate to any page on the website without having to use any browser buttons such as 'back' or 'forward'.
-Image of Navigation Bar
 
-The landing page and hero image
+![Am I Responsive Website](readme/feature-screenshots/responsivness.png)
 
-The landing includes a hero image and cover text which allows the user to see what the website is about. The image includes an animation which should draw the user into the page, whilst the cover text details clearly what the website is about.
-Image of Landing Page
-Upcoming Games section
+## Features
 
-The upcoming games secton allows the user to see what upcoming games the travel club will be attending in the future. It is limited to 4 upcoming games.
-This section allows the user to find what the upcoming games are quickly. It provides details of the game, the date of the game, the time the game kicks off, Departure time and the cost of the trip.
-Image of Upcoming Games Section
+This website contains many features, which we will explain now.
 
-Why Travel with Manchester United Supporter Away Travel Club section
+### Existing Features
 
-This sections allows the user to see the benefits of travelling with the travel club. It details the luxury coach travel, the facilities and the wide range of refreshments available on the coach.
-The user will see the value of travelling with the Travel club and understand it is more than just transport to the football game, but allows the user to travel in luxury and enjoy refreshments.
-Image of Why Travel Section
-Google Maps
+- __Navigation Bar__
 
-This section allows the user to see the location of where the travel coach departs from using Google Maps. It allows the user to find the location of departure without having to leave the website.
-Image of google maps
+  - Featured on all three pages, the full responsive navigation bar includes links to the Logo, Home page, Recipes, and Sign Up page and is identical on each page to allow for easy navigation.
+  - This section will allow the user to easily navigate from page to page across all devices without having to revert to the previous page via the ‘back’ button. 
 
-Footer
+  ![Navigation Bar](readme/feature-screenshots/navigation-bar.png)
+  
+  - The navigation bar turns into a burger menu for screen sizes 699px wide and down for better structure and visual.
 
-The footer includes links to all of the social media sites for the Manchester United Supporters Away Travel Club.
-The footer allows the user further access to the Manchester United Supporters Away Travel Club through their social media sites.
-Image of footer
+  ![Burger menu](readme/feature-screenshots/burger-menu.png)
+  
+- __The landing page image__
 
-Games Page
+  - The landing page grabs the viewers' attention by showing an image of a chef cooking. The goal of the image and overlay text is to give an immediate understanding to the viewer of what the website will be about.
 
-The page allows the user to see a full list of all the upcoming games that the travel club will be providing transport for. It provides details of the game, the date of the game, the time the game kicks off, Departure time and the cost of the trip.
-The section is valuable to the user, as it allows them to see a full list of the games that the travek club will be travelling to, as more fixtures are announced, the list will be added to, which will provide the user with more options of games to pick from.
-Image of Upcoming Games Section
-Sign Up Page
+  ![Landing Page](readme/feature-screenshots/landing-page.png)
 
-The page allows the users to sign up to the Manchester United Supporters Away Travel Club. The user is asked to submit their Name, Email, Address, what age bracket they are in, whether they are currently a season ticket holder. The user is able to select which games they would be interested in travelling to with the Travel Club, they can as many options as they wish.
-Image of Sign Up Page
-Possible Future Features to Implement
+- __Why cook section__
 
-A Gallery page where users can see other users who have been on trips with the travel club. This could also include a youtube videos of trips.
-A review section where users can see reviews from other users to gain an independent review of the travel club.
-Testing
-HTML
-No errors were returned when passing through the official W3C validator
+  - The why cook section will allow the user to see the benefits of cooking. 
+  - The user will see the value of learning the skill. This should encourage the user to consider changing his cooking habits by using the website and its features. 
 
-index.html
+  ![Why cook section](readme/feature-screenshots/why-cook.png)
 
-Image of no errors
+- __About us section__
 
-games.html
-Image of no errors
+  - The about us section will allow the user to know who is offering the knowledge and their skill level. 
+  - The user will see the value of accessing the site for weekly recipes and signing up for the Cooking 101 live classes.
 
-signup.html
-Image of no errors
+  ![About us section](readme/feature-screenshots/about-us.png)
 
-CSS
-No errors were returned when passing through the official Jigsaw validator
+- __Live section__
 
-style.css
+  - This section will allow the user to see exactly when classes will happen. 
+   
+  ![Live classes section](readme/feature-screenshots/live-classes.png)
 
-Image of no errors
+- __The Footer__ 
 
-Responsive
-Am I responsive: The site is responsive to different screen sizes. Tested through Am I Responsive?
+  - The footer section includes links to the relevant social media sites for Love Running. The links will open to a new tab to allow easy navigation for the user. 
+  - The footer is valuable to the user as it encourages them to keep connected via social media.
 
-Website tested using Chrome devtools on various screen sizes.
+  ![Footer](readme/feature-screenshots/footer.png)
 
-Media Queries were added to the CSS Stylesheet:
+- __Recipes__ 
 
-For larger to medium screens size from 1200px wide and down
-Medium screen sizes from 950px wide and down
-Lighthouse
-Website tested on lighthouse
-Perfomance 53
-Accessibility 97
-Best Practices 92
-SEO 93
-Lighthouse score
+  - The Recipes page will provide the user with weekly updated recipes. 
+  - This section is valuable to the user as they will be able to easily view recordings of live classes missed and new recipes.
 
-To improve this, I used Optimizilla to reduce the size of the images on the website. After compressing all of the images, I performed the lighthouse test again which returned an huge improvement on the performance score without affecting images quality on the site.
+  ![Recipes](readme/feature-screenshots/recipes.png)
 
-After compressing images - Website tested on lighthouse
-Perfomance 53
-Accessibility 97
-Best Practices 92
-SEO 93
-Lighthouse score
+- __The Sign Up Page__
 
-Unfixed Bugs
-The flexbox css styling on the Games page does not line up all the images as neatly as I would like. This is something I would want to work on and improve in the future.
+  - This page will allow the user to get signed up for Cooking 101 live classes to start their cooking journey. The user will be able to specify if they would like to take part in Saturday, Sunday classes, or both. The user will be asked to submit their full name and email address. 
 
-Images that are used on the site are rather large in size and they could be adjusted to allow for faster loading times on those with a slower internet connection
+![Sign Up](readme/feature-screenshots/sign-up.png)
 
-Deployment
-The site was deployed to GitHub pages. The steps to deploy are as follows:
-In GitHub repository, naviagte to the Settings tab
-Click on Pages
-Select main branch and GitHub builds site from main branch
-The live link is here - https://richburman.github.io/Project-1/
+- __Thank you message Page__
 
-Credits
-Contents
-Research using w3schools to learn about how to use flexbox
-The icons in the footer were taken from Font Awesome
-The fonts were taken from Google Fonts
-The football teams used in the website are members of the Premier League
-Manchester United
-Arsenal FC
-Chelsea FC
-Manchester City FC
-Tottenham Hotspur FC
-Information take from Web.Dev to reduce images size to improve loading performance speeds. After reading this webite I added 'aspect-ratio= 16/9' to my imgs to help improve performance speeds on lighthouse score.
-Media
-All images were taken from Unsplash
-All images were compressed using Optimizilla to aid website performance.
-Screenshots taken from the following website for this README
-Lighthouse
-Jigsaw validator
-W3C validator
-Am I Responsive?
-Acknowledgements
-Thank you to my mentor for your support throughout my project. It has been greatly appreciated.
-Thank you to the CI slack community for your support throughout my project.
+  - This page will inform the user he has successfully signed-up and the we will be contacted shortly.
+  - It also provides the user with a button to check the recipes page.
+
+![Than you messeage](readme/feature-screenshots/thank-you-message.png)
+
+- __Color Palette__
+
+  - Main colors are black and white for user accessibility.
+
+### Features Left to Implement
+
+- In the future I would like to:
+
+- Add more types of cuisines to the recipes divided by cuisine types with a step-by-step text description.
+- Add a vegetarian and vegan section to recipes.
+- Make social media links land on chefs-related social media pages.
+
+## Technologies Used
+
+### Languages Used
+
+-   [HTML5](https://en.wikipedia.org/wiki/HTML5)
+-   [CSS3](https://en.wikipedia.org/wiki/Cascading_Style_Sheets)
+-   [Javascript](https://en.wikipedia.org/wiki/JavaScript)
+
+## Testing 
+
+All features above were tested on the deployed website across multiple devices. 
+
+All features above were tested on the deployed website on the following browsers:
+
+- __Edge__
+- __Google Chrome__
+- __Brave__
+- __Mozilla Firefox__
+
+Navigation bars and links to social media websites are working as intended. The form works as it should, and the buttons perform the given actions. 
+
+I encountered a bug when deploying the website on Mozilla Firefox for the first time, my grid structure rule for rows did not apply, I fixed the bug by removing the  "grid-template-rows", after this fix the webiste worked fine on Mozilla Firefox.
+
+### Lighthouse testing
+
+Because of performance levels, I have modified my images from jpg to webp following teammates' advice.
+
+As I choose to build a recipe page with youtube video links, I could not improve the performance level.
+
+Results for Lighthouse once fixes applied:
+
+- __HTML__
+
+    - __Index page__
+
+    ![Index Lighthouse](readme/lighthouse-testing/index-lighthouse.png)
+
+    - __Recipes page__
+
+    ![Recipes Lighthouse](readme/lighthouse-testing/recipes-lighthouse.png)
+
+    - __Sign-up page__
+
+    ![Sign-up Lighthouse](readme/lighthouse-testing/sign-up-lighthouse.png)
+
+    - __Thank you message page__
+
+    ![Thank you message Lighthouse](readme/lighthouse-testing/thank-you-message-lighthouse.png)
+
+## Validator Testing 
+ 
+- HTML
+  - No errors were returned when passing through the official [W3C validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fmartinfortuna.github.io%2Fportfolio-1-project%2Findex.html)
+
+- CSS
+  - No errors were found when passing through the official [(Jigsaw) validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fmartinfortuna.github.io%2Fportfolio-1-project%2Findex.html&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)
+
+## Unfixed Bugs
+
+- No known bugs left unfixed.
+
+## Deployment
+
+ - The site was deployed to GitHub pages. The steps to deploy are as follows: 
+ - In the GitHub repository, navigate to the Settings tab 
+ - From the source section drop-down menu, select the Master Branch
+ - Once the master branch has been selected, click on save and the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment. 
+
+The live link can be found here - https://martinfortuna.github.io/portfolio-1-project/index.html
+
+## __Credits__
+
+### Content
+
+- The header code is taken from Web Dev Simplified's youtube video [Web Dev Simplified](https://www.youtube.com/watch?v=At4B7A4GOPgs).
+- The footer code is taken from Love Running project, Code institute.
+- Form code is taken from Love Running project, Code institute.
+- For coding questions and challenges, I used [w3schools.com](https://www.w3schools.com/), the slack community.
+- For grid layout, I used [Css Grid Generator](https://cssgrid-generator.netlify.app/).
+- The icons in the footer were taken from [Font Awesome](https://fontawesome.com/).
+
+### Media
+
+- Images were takent from [Pexels](https://www.pexels.com/).
+- The videos were taken from YouTube.
+
+## __Special Thanks__
+Specials thanks goes out to:
+- My mentor Narender, my brother and my friend Guillerme for guiding me through the project.
+
+
+
+
