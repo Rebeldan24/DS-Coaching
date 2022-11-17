@@ -106,26 +106,34 @@ The choices for the color scheme were based on examination of other like purpose
 
 ![wide nav bar](/assets/readme%20images/Full%20nav%20bar.PNG)
 
-  - Once the site adapts for smaller screen sizes, the page logo will relocate to the center of screen with the menu options underneath it. Due to the length of some of the link names, the icons will be used instead of text when the site adapts. 
+  - Once the site adapts for smaller screen sizes, the page logo will relocate to the left of screen with the menu burger menu with a drop down menu appearing to easily view.
 
-![mobile nav bar](/assets/readme_images/navbar02.jpg)
+![mobile nav bar](/assets/readme%20images/Mobile%20Logo.PNG)
+
+![mobile burger menu](/assets/readme%20images/nav%20bar%20drop%20down.PNG)
 
 
 [Back to Contents](#contents)
 
 ### Introduction
-  -   This is a general introduction to the ethos of the site and its aims going forward.
-  There is also a content disclaimer which reminds the user that the information here is a general guide and that the best advice comes from those trained and who have full knowledge of their individual situation. A repetition of this will appear in the footer of each page.
+  -   This is the first thing the user sees when landing on the page. Here we have an image that incorporates health and fitness into one. I chose this image as its bright and warm, I also have included some text to intice the user to come further. I also included the zoom effect when user first lands on the page.
 
- ![hero section](/assets/readme_images/heroSection.jpg)
+ ![hero section](/assets/readme%20images/Hero%20image.PNG)
 
 
 [Back to Contents](#contents)
 
 ### Sub-sections
-  -   The 3 columns of this section each contain a seperate image, a brief explanation of the topic matter and a link to the related page within the title of the subsection.
+  -   The main page is divided into three sections. First as I have discussed already. Below this will be the about us. Here I focus on the four pillars, nutrition, well being, education , movement. On a mobile screen these will stack on top of one another for easy viewing 
 
-  ![3 Column section from Wear and Care Page](/assets/readme_images/Wear_Care3Column.jpg)
+  ![About us](/assets/readme%20images/about-us.PNG)
+  ![Mobile view about us](/assets/readme%20images/mobile-view1.PNG) ![mobile view part-2](/assets/readme%20images/mobile-view2.PNG) ![mobile view part 3](/assets/readme%20images/mobileview3.PNG)
+
+### Sub-sections
+  -   The second subsection here is providing insight to some classes available with locations and times also. I used the layout used from Love Running. I used flex box and used an opacity on the images the bring forward the white text to make it pop out. Similar to above for mobile view these images stack evenly on top of each other.
+
+  ![Classes](/assets/readme%20images/classes.PNG) ![Classes mobile view](/assets/readme%20images/classes-mobile-view-1.PNG) ![Classes mobile view two](/assets/readme%20images/classes-mobile-view-2.PNG)
+  
 
 
 [Back to Contents](#contents)
