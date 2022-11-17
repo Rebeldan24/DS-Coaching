@@ -76,22 +76,20 @@ The wireframes for this site were produced and are hoste on the site [Balsamiq](
 ## Design Choices
 
 ### Typography
-The fonts chosen for this project were 'dm-serif-display' for the headings (h1, h2 etc) and 'sans-serif' for the body text.
+The fonts chosen for this project were 'dm-serif-display' for the headings (h1, h2 etc) and 'sans-serif' for the body text. The reason for this is that account I want to text to stand out. When you navigate to the page it stands out. Also I did not want to fill the landed page with text, I wanted to images to speak volumes in terms of community and inclusively
  
 
 
 [Back to Contents](#contents)
 
 ### Colour Scheme
-The choices for the colour scheme were based on examination of other like purpose sites. The use of primary colours, particularly red was prominent in most of the sites that dealt with medical advice or patient advocacy. I was cautious about using any colours that are strongly associated with one medical condition over another in order to preserve an inclusive environment for any user - this site is not for a specific condition, just for a specific health aid.
+The choices for the color scheme were based on examination of other like purpose sites. I wanted a contrast of dark and light across the site. I used a light background color to make the images stand out around this background color. As you can see I did ue a different background color in contrast to the body. The purpose of this was that the contact details would standout on the site and be easily located by the text and background of the footer. AS you can the text was in two colors, for the images I had the text in light color to make them stand out against the images 
 
-![Colormind Colour Chart](/assets/readme_images/bestCompressedColorScheme.jpg)
-
-
-To alter in some way from the norm but still maintain an air of familiarity, I chose variations of red and blue to accent the text elements. These colour choices were also checked using Adobe's Color Wheel webpage for suitability for those who suffer with colour blindness.
+![Colormind Colour Chart](/assets/readme%20images/Color%20Pallete.png)
 
 
-![Adobe Color Blindness Accessibility Test](/assets/readme_images/colorBlindTestAdobe.jpg) 
+
+
 
 
 [Back to Contents](#contents)
@@ -102,11 +100,11 @@ To alter in some way from the norm but still maintain an air of familiarity, I c
 
 ### Navigation Bar
 
-![logo](/assets/readme_images/logo.jpg)
+![logo](/assets/readme%20images/Navigation%20bar%20logo.PNG)
 
-  - Situated at the top of the page, the page logo 'DS COACHING is shown on the left hand side with the page menu located on the right, listing this HOME page as well as 2 addional pages. Each page is assigned an overline as  a visual aid and will have an 'active' line beneath each link as its appropriate page is visited. 
+  - Situated at the top left corner of the page, the page logo 'DS COACHING is shown on the left hand side with the page menu located on the right, listing this HOME page as well as 2 additional pages. Each page is assigned an overline as  a visual aid and will have an 'active' line beneath each link as its appropriate page is visited. 
 
-![wide nav bar](/assets/readme_images/navbar01.jpg)
+![wide nav bar](/assets/readme%20images/Full%20nav%20bar.PNG)
 
   - Once the site adapts for smaller screen sizes, the page logo will relocate to the center of screen with the menu options underneath it. Due to the length of some of the link names, the icons will be used instead of text when the site adapts. 
 

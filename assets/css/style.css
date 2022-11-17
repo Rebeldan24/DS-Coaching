@@ -152,7 +152,7 @@ nav a:hover {
 
 
 #cover-text, #cover-text h2 {
-    color: #fff;
+    color: #ffffff;
 }
 #hero-image {
     height: 600px;
@@ -240,7 +240,7 @@ nav a:hover {
     border-style: solid;
     width: 180px;
     height: 180px;
-    border-color:#ffff;
+    border-color:#ffffff;
     border-width: 1px;
     border-radius: 50%;
   
@@ -256,7 +256,7 @@ nav a:hover {
     border-style: solid;
     width: 180px;
     height: 180px;
-    border-color:#ffff;
+    border-color:#ffffff;
     border-width: 1px;
     border-radius: 50%;
 }
@@ -281,7 +281,7 @@ nav a:hover {
         border-style: solid;
         width: 180px;
         height: 180px;
-        border-color:#ffff;
+        border-color:#ffffff;
         border-width: 1px;
         border-radius: 50%;
         margin-left: 145px;
@@ -300,7 +300,7 @@ nav a:hover {
     border-style: solid;
     width: 180px;
     height: 180px;
-    border-color:#ffff;
+    border-color:#ffffff;
     border-width: 1px;
     
     border-radius: 50%;
@@ -352,7 +352,7 @@ width: 60%;
     background-image: url(../images/yoga1.jpeg);
     background-size: cover;
     background-repeat: no-repeat;
-    color: white;
+    color: #ffffff;
     text-align: center;
     font-family: dm-serif-display, sans-serif;
     position: relative;
@@ -366,7 +366,7 @@ width: 60%;
     position: absolute;
     content: "";
     inset: 0;
-    background:  grey;
+    background:  #3A506B;
     opacity: .4;
   
 }
@@ -375,7 +375,7 @@ width: 60%;
     background-image: url(../images/personal_training.jpeg);
     background-size: cover;
     background-repeat: no-repeat;
-    color: white;
+    color: #ffffff;
     text-align: center;
     font-family: dm-serif-display, sans-serif;
     position: relative;
@@ -389,7 +389,7 @@ width: 60%;
     position: absolute;
     content: "";
     inset: 0;
-    background:  grey;
+    background:  #3A506B;
     opacity: .4;
   
 }
@@ -399,7 +399,7 @@ width: 60%;
     background-image: url(../images/workshop.jpeg);
     background-size: cover;
     background-repeat: no-repeat;
-    color: white;
+    color: #ffffff;
     text-align: center;
     font-family: dm-serif-display, sans-serif;
     position: relative;
@@ -413,7 +413,7 @@ width: 60%;
     position: absolute;
     content: "";
     inset: 0;
-    background:  grey;
+    background:  #3A506B;
     opacity: .4;
   
 }
@@ -423,7 +423,7 @@ width: 60%;
     background-image: url(../images/technique.jpeg);
     background-size: cover;
     background-repeat: no-repeat;
-    color: white;
+    color: #ffffff;
     text-align:center;
     font-family: dm-serif-display, sans-serif;
     position: relative;
@@ -437,7 +437,7 @@ width: 60%;
     position: absolute;
     content: "";
     inset: 0;
-    background:  grey;
+    background:  #3a506b;
     opacity: .4;
 }
 
@@ -448,7 +448,7 @@ footer{
     bottom: 0px;
     width: 100%;
     background: #3a506b;
-    color: #ffff;
+    color: #5BC0BE;
   }
   .main-content{
     display: flex;
@@ -461,7 +461,7 @@ footer{
     font-size: 1.125rem;
     font-weight: 600;
     text-transform: uppercase;
-    color: #fff;
+    color: #ffffff;
   }
   .box .content{
     margin: 20px 0 0 0;
@@ -473,14 +473,14 @@ footer{
     top: -10px;
     height: 2px;
     width: 100%;
-    background: #1a1a1a;
+    background: #3A506B;
   }
   .box .content:after{
     position: absolute;
     content: '';
     height: 2px;
     width: 15%;
-    background: #f12020;
+    background: #ffffff;
     top: -10px;
   }
   .left .content p{
@@ -495,7 +495,7 @@ footer{
   .left .content .social a span{
     height: 40px;
     width: 40px;
-    background: #1a1a1a;
+    background: #3A506B;
     line-height: 40px;
     text-align: center;
     font-size: 18px;
@@ -503,11 +503,11 @@ footer{
     transition: 0.3s;
   }
   .left .content .social a span:hover{
-    background: #f12020;
+    background: #ffffff;
   }
   .center .content .fas{
     font-size: 1.4375rem;
-    background: #1a1a1a;
+    background: #3A506B;
     height: 45px;
     width: 45px;
     line-height: 45px;
@@ -517,7 +517,7 @@ footer{
     cursor: pointer;
   }
   .center .content .fas:hover{
-    background: #f12020;
+    background: #ffffff;
   }
   .center .content .text{
     font-size: 1.0625rem;
@@ -681,8 +681,8 @@ background-color: #fff;
 }
 
 .field:focus {
-    background-color: #fff;
-    border: 2px solid rgba(30, 85, 250, 0.47)
+    background-color: #ffffff;
+    border: 2px solid #1c2541
 }
 .area {
 min-height: 150px;
@@ -692,7 +692,7 @@ min-height: 150px;
     width: 100%;
     padding: 0.5rem 1rem;
     font-size: 1.1rem;
-    background-color: #3a3a3a;
+    background-color: #5BC0BE;
     cursor: pointer;
     outline: none;
     border: none;
