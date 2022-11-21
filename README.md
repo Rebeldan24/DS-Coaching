@@ -140,14 +140,17 @@ The choices for the color scheme were based on examination of other like purpose
 
 
 ### Footer
-   - Fixed at the bottom of the screen, the footer contains the constant Disclaimer relating to the content of the site  on the left hand side.
-   - There are also 3 links to relatable social media for the site's content. These three platforms were chosen for their generally understood UI which will aid the cross generational divide. 
-   - There is a 'Date Updated' information line to reflect the current nature of the information provided.
-   - This will be present on all pages and screen sizes.
+   - The footer is fixed at the bottom of the page using the color background #3A506B and the text in a color of #5BC0BE.
+   - The footer is broken down into three sections about us, address and map
+   - The left side has brief about us section and with the social media links and a hover function also to highlight this
+   ![Left footer section](/assets/readme%20images/Left%20footer%20section.PNG)
+   - The middle section of the footer has all the contact information and also added an icon. The icon also has a hoover function which as a white background. ![Middle Footer section](/assets/readme%20images/middle%20footer%20section.PNG)
+   - The right section of the footer has a google map feature which pin points the location for the user. ![Right footer section](/assets/readme%20images/Right%20section%20footer.PNG)
+   - For Mobile viewing the footer is centered and stacked over each out for easy viewing accessibility to links and contact information ![Footer mobile view](/assets/readme%20images/Footer%20Mobile%20view.PNG)
 
 [Back to Contents](#contents)
 
-### What is a Compression Garment page
+### Home-Page
   - Inheriting the layout of the Landing Page, the information presented here explains simply the purposes of a Compression Garment. 
   - The 3 column section uses images to catagorise the 3 main types and provides bulletpoints of the main differences of each type.     
   - The disclaimer for the intent of the site can be seen in the footer along with the social media icons.
