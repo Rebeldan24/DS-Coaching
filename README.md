@@ -259,15 +259,15 @@ In the building of the site, the major issues I had to deal with involved the fo
   ### Testing User Stories
   
   1. As a user, I can find the information I seek quickly.
-      - The index/landing page has clear labels for the different sections and a descriptive text to assist in guidance.
-      - The font is crisp and easy to read. 
+      - The index/landing page has clear sections 
+      - The font is attractive and bright and easy to read 
 
   2. As a user, I can understand the information as it is presented to me.
-      - The information is written in an informal but polite language.
-      - The definition of catagories is clearly marked.
+      - The information is written in an informal way and also driven by the images
+      
   
   3. As a user, I can clearly make out the links to each page.
-      - The links in the navigation bar are both text and icon for the desktop sites.
+      
       - The icons have been chosen to be intuitive in their meaning.
       - The alt text has been clearly labelled for the screenreader.
 
