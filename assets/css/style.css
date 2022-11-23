@@ -715,7 +715,7 @@ min-height: 150px;
 /* For medium screen sizes from 800px wide and down */
 
 
-@media screen and (max-width:1200px) {
+@media screen and (max-width:1600px) {
   #circle-container3 {
     padding: 30px;
     border-style: solid;
@@ -724,7 +724,7 @@ min-height: 150px;
     border-color: #ffffff;
     border-width: 1px;
     border-radius: 50%;
-    margin-left: 80px;
+    margin-left: 145px;
     margin-top: 20px;
 }
 #circle-container4 {
@@ -735,11 +735,34 @@ min-height: 150px;
   border-color: #ffffff;
   border-width: 1px;
   border-radius: 50%;
-  margin-right: 80px;
+  margin-right: 145px;
   margin-top: 20px;
 }
 }
-
+@media screen and (max-width:1024px) {
+  #circle-container3 {
+    padding: 30px;
+    border-style: solid;
+    width: 180px;
+    height: 180px;
+    border-color: #ffffff;
+    border-width: 1px;
+    border-radius: 50%;
+    margin-left: 0px;
+    margin-top: 20px;
+}
+#circle-container4 {
+  padding: 30px;
+  border-style: solid;
+  width: 180px;
+  height: 180px;
+  border-color: #ffffff;
+  border-width: 1px;
+  border-radius: 50%;
+  margin-right: 0px;
+  margin-top: 20px;
+}
+}
 @media (max-width: 950px) {
   .row1 {
       flex-direction: column;
