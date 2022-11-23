@@ -472,7 +472,7 @@ footer{
     position: absolute;
     content: '';
     top: -10px;
-    height: 2px;
+    height: 0px;
     width: 100%;
     background: #3A506B;
   }

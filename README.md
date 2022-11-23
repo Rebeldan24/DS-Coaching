@@ -2,7 +2,7 @@
 
 The DS Coaching  website  information website that provides insight into the coaching facility and their main principles. Its aim is to present the information about the various classes in place and putting an focus on inclusivity of members and highlight the different classes available DS Coaching puts on emphasis on four main pillars such as nutrition, training , mindset and education
 
-The live site can be accessed through this [link](https://mjmcp.github.io/best-compressed/index.html).
+The live site can be accessed through this [link](https://rebeldan24.github.io/DS-Coaching/).
 
 ![Ui.dev Responsiveness screenshot](/assets/readme%20images/AmIIresponsive.PNG) 
 
@@ -32,8 +32,7 @@ The live site can be accessed through this [link](https://mjmcp.github.io/best-c
 - [Deployment](#deployment)
 - [Credits](#credits)
   - [Content](#content)
-  - [Media](#media)
-- [Acknowledgements](#acknowledgements)
+  
 
 # User Experience UX
 
@@ -282,15 +281,7 @@ In the building of the site, the major issues I had to deal with involved the fo
 
 [Back to Contents](#contents)
 
-### Unfixed Bugs
 
-- Column layout and sizing images to screen sizes.
-  - This is an area that I am still endeavouring to conquer. My aim of having a responsive website across 3 if not 4 different screen sizes centered around a 2 section construct within the main body of the page. The top section allowed for 2 seperate column areas that could be utilised for images, text or forms. This was done will little difficulty. However, the lower section proved to be somewhat elusive for me - I was not successful in my time constraint to find the correct syntax to generate the correct behaviour. This is something that I can correct but at present, I am required to stop my search for answers in order to ensure with the rest of the site's functionalilty.
-
-- Form Format   
-  - The coding for a basic form layout was readily available in various locations so I implemented the form values from the w3school website to create my version. While I have found it to be easily responsive to the smaller screen sizes, I have not been able to successfully identify the syntax I need to evenly space the form element beside the additional text on the same page.
-  
-![Screengrab of form layout on large screen](/assets/readme_images/formIssue01.jpg)
 
 [Back to Contents](#contents)
 
@@ -319,20 +310,17 @@ To clone this Github repository, please follow these steps:
 ## Credits
 
 ### Content
- - I used [Fontjoy](http://fontjoy.com) to check font combination visuals.
+ 
  - I used [Google Font](https://fonts.google.com) to create font-family import link.
  - I also used [Leadpages](https://leadpages.com/blog.best-google-fonts/) and [1001freefonts](https://www.1001freefonts.com/kfonts21.php) for inspiration on font choices.
  - I used the following README.md files as guidelines as to how to create a comprehensive document: 
     - [README from the CI Love Running Project](https://github.com/Code-Institute-Solutions/readme-template). 
     - [README suplied by CI](https://codeinstitute.s3.amazonaws.com/CSSEssentials/p1-readme.png) 
-    - [README Wawas Wood](https://github.com/EwanColquhoun/wawaswoods/blob/master/README.md)
+   
 
 
-[Adobe Color Website](https://color.adobe.com/create/color-wheel) for assistance in creating a suitable color palete that was both pleasing to look at but assessible to those who are colorblind.
+[Colors Website](https://coolors.co/) for assistance in creating a suitable color palete that was both pleasing to look at but assessible to those who are colorblind.
 
-[Solution to icon-text replacement issue](https://stackoverflow.com/questions/24751486/is-there-a-syntactically-correct-way-to-replace-text-with-an-icon-in-css-html)
-
-[MDN Web Docs](https://developer.mozilla.org/en-US/docs/Web/CSS) for coding syntax assistance.
 
 [CI Slack Channels](https://code-institute-room.slack.com) for solution sourcing and general problem solving.
 
@@ -342,21 +330,13 @@ To clone this Github repository, please follow these steps:
 
 [W3](https://www.w3schools.com/howto/howto_css_responsive_form.asp) for aid in creating responsive form element.
 
-[Back to Contents](#contents)
-
-## Media
-All images are supplied under licence from [Shutterstock](https://www.shutterstock.com/catalog/collections/2862916629887452844-93837546d8e92ba5d695b8ceddbb1b5c0767be2e681b4342ce2a3ffe2adf42be) from the following content creators: Petia_is, Jacob Lund, Andrey_Popov, Nikolas Gregor, Bokehboo Studios and Yuliya Yesina.
-
-The video [How to Care for Compression Socks video](https://www.youtube.com/watch?v=fXx3Pq-Xg_g&list=PLH0_voDzIEWp1eDk1hvXcezmqelSv9Vbo&index=1) was sourced from YouTube.com, created by [The Sunny Edge](https://www.youtube.com/channel/UC56v3cPLfJaQgA1KTF5AGHQ/about).
-
-The video [Eczema, Dry Skin, and How to Treat](https://www.youtube.com/watch?v=-vUT_XPX6N8) was sourced from Youtube.com, created by [Doctorpedia](https://www.youtube.com/c/DoctorpediaYT/about)
-
-The Video Plugin Code was generated by [Codegena.com]('http://codegena.com/generator/Youtube-Embed-Code-Generator.html')
+[Kevin Powell Youtube](https://www.youtube.com/kepowob)
 
 [Back to Contents](#contents)
 
-## Acknowledgements
 
-Many thanks to my mentor Precious Ijege for his patience and guidance, to Joanana Skoczen, Emanuel Silva and Robert Kennedy for helping me see the coding trees in the script forest and to Kenan Wright at CI for all his assistance. 
+
 
 [Back to Contents](#contents)
+
+ 
