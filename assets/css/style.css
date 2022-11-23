@@ -575,19 +575,17 @@ footer{
 /* Gallery page */
 
 .photo-gallery {
-    max-width: 1500px;
-    width: 100%;
-    margin-inline: 5px;
-    padding-inline:  2rem;
+   
+    width: 90vw;
+    margin: auto;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    justify-content: center;
-    object-fit: cover;
+    
 }
 
 img {
-    width:450px;
-    height: 300px;
+    width:100%;
+    height: auto;
     margin: .5px;
     padding: 5px;
 
@@ -1053,7 +1051,11 @@ left:-80px;
   align-items: center;
   justify-content: center;
 }
-
+.photo-gallery {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
   .sign-up-container-box {
     grid-template-columns: 0.5fr;
     justify-content: center;
