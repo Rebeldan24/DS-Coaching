@@ -248,11 +248,11 @@ In the building of the site, the major issues I had to deal with involved the fo
   
     The following images show the results from the Lighthouse Developer Tool based on desktop and mobile standards respectively.
 
-  ![Lighthouse Desktop 1260 Result ](/assets/readme_images/lighthouseIndexScore.jpg)
+  ![Lighthouse Desktop 1260 Result ](/assets/readme%20images/Lighhouse.desktop.PNG)
 
     Measuring the criteria of Performance, Accessibility, Best Practice and SEO, the results have varied depending on the screensize that the site was assessed through. Part of the issues highlighted include the lack of defined dimensions for the images within the site. Due to the aforementioned issues with column formatting, some of the original measurements have been removed in an attempt to rectify the issue. 
 
-  ![Lighthouse Mobile 320 Result](/assets/readme_images/lighthouseIndexScoreMobile.jpg)
+  ![Lighthouse Mobile 320 Result](/assets/readme%20images/lighthouse.mobile.PNG)
   
 
   ### Testing User Stories
@@ -261,22 +261,20 @@ In the building of the site, the major issues I had to deal with involved the fo
       - The index/landing page has clear sections 
       - The font is attractive and bright and easy to read 
 
-  2. As a user, I can understand the information as it is presented to me.
-      - The information is written in an informal way and also driven by the images
+  2. As a user, on the landing page in mobile view I can see all images text clearly.
+      - The footer clearly displays contact information 
+      - Images and text box are all stacked evenly over each other
+
       
   
-  3. As a user, I can clearly make out the links to each page.
+  3. As a user, I can clearly view all images in gallery tab
       
-      - The icons have been chosen to be intuitive in their meaning.
-      - The alt text has been clearly labelled for the screenreader.
+      - In larger screens I can see all images 
+      - In smaller screens all images stack over each other with even space with pleasing on the eye
 
-  4. As a user, I can understand the information in the videos.
-      - Each video is clear in visuals and audio.
-      - Each video presents the information in a clear but precise manner.
-      - Each video narrator speaks in a clear voice and uses a common vernacular.
 
-  5. As a user, I can leave a message through a provided portal.
-      - The form provided allows for the creation of a message.
+  4. As a user, I can leave a query in the sign up tab.
+      - The form can be easily inputted in both larger and smaller screens 
       - The links to the social media sites also facilitate the possibility of communication.
 
 [Back to Contents](#contents)
@@ -337,6 +335,6 @@ To clone this Github repository, please follow these steps:
 
 
 
-[Back to Contents](#contents)
+
 
  
